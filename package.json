@@ -1,0 +1,26 @@
+{
+  "name": "sbgserver",
+  "version": "1.0.5",
+  "description": "Server that can be stopped by entering kill url",
+  "repository": {
+    "type": "git",
+    "url": "http://stash.standardbank.co.za:7990/scm/sweb/sbgserver.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sbgserver": "./bin/sbgserver.js"
+  },
+  "dependencies": {
+    "compression": "^1.5.1",
+    "connect-livereload": "^0.5.3",
+    "express": "^4.13.0",
+    "killable": "^1.0.0",
+    "minimist": "^1.1.2",
+    "request": "^2.59.0"
+  },
+  "author": "Brett Upton",
+  "license": "ISC"
+}
