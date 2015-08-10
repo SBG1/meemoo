@@ -1,7 +1,7 @@
 {
   "name": "meemoo",
   "version": "0.1.0",
-  "description": "Server that can be stopped by entering kill url",
+  "description": "Server with livereload, compression and more",
   "repository": {
     "type": "git",
     "url": "https://github.com/SBG1/meemoo.git"
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "sbgserver": "./bin/sbgserver.js"
+    "sbgserver": "./bin/meemoo.js"
   },
   "dependencies": {
     "compression": "^1.5.1",
