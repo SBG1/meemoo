@@ -1,10 +1,10 @@
 {
-  "name": "sbgserver",
-  "version": "1.0.5",
+  "name": "meemoo",
+  "version": "0.1.0",
   "description": "Server that can be stopped by entering kill url",
   "repository": {
     "type": "git",
-    "url": "http://stash.standardbank.co.za:7990/scm/sweb/sbgserver.git"
+    "url": "https://github.com/SBG1/meemoo.git"
   },
   "main": "index.js",
   "scripts": {
