@@ -1,6 +1,6 @@
 {
   "name": "meemoo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Server with livereload, compression and more",
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
     "connect-livereload": "^0.5.3",
     "express": "^4.13.0",
     "killable": "^1.0.0",
+    "livereload": "^0.3.7",
     "minimist": "^1.1.2",
+    "opener": "^1.4.1",
     "request": "^2.59.0"
   },
   "author": "Brett Upton",
